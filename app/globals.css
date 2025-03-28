@@ -120,3 +120,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+#borderimg {
+  border: 15px solid transparent;
+  padding: 0px;
+  border-image-source: url("/images/border.png");
+  border-image-repeat: repeat;
+  border-image-slice: 37;
+}
