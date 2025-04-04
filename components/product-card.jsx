@@ -7,11 +7,10 @@ const ProductCard = ({ product }) => {
   return (
     <div className="flex flex-col items-center w-[280px] h-[300px]">
       <div
-        id="borderimg"
-        className="flex items-center justify-center w-full h-[260px] min-h-[220px]"
+        className="borderimg flex items-center justify-center w-full h-[260px] min-h-[220px]"
       >
         <Image
-          src={product.image}
+          src={product.image.front}
           width={200}
           height={200}
           alt="product"

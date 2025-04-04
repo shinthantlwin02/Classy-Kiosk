@@ -13,7 +13,9 @@ const Navbar = () => {
 
       <div className="flex items-center gap-2">
         <h1 className="text-sm font-semibold text-gray-600">LOGO</h1>
-        <ShoppingBagIcon />
+        <Link href={`/cart`}>
+          <ShoppingBagIcon />
+        </Link>
       </div>
     </nav>
   );
